@@ -1,0 +1,18 @@
+{
+  "name": "SylversBot-MD",
+  "description": "whatsapp md bot fait avec du nodejs",
+  "repository": "https://github.com/DGXeon/CheemsBot-MD11",
+  "logo": "https://i.ibb.co/VHzbSjr/d80df3c1-2527-4f9c-81c5-c1a99cedec09.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
